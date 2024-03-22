@@ -15,6 +15,11 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
+        <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
         <title>Responsive Website Travel</title>
     </head>
     <body>
@@ -349,82 +354,85 @@
             </section>
             
             <!--==================== TESTIMONIALS ====================-->
-            <section class="sponsor section">
-                <div class="sponsor__container container grid">
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
-                    </div>
-                    <div class="sponsor__content">
-                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
-                    </div>
-                </div>
-            </section>
-        </main>
-
+         
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
             <div class="footer__container container grid">
                 <div class="footer__content grid">
                     <div class="footer__data">
-                        <h3 class="footer__title">Travel</h3>
-                        <p class="footer__description">Travel you choose the <br> destination, 
-                            we offer you the <br> experience.
+                        <h3 class="footer__title"><img src="assets/img/LOGO COLORIDA 02.png" alt="" srcset=""></h3>
+                        <!-- <p class="footer__description">Travel you choose the <br> destination, 
+                            we offer you the <br> experience. -->
                         </p>
-                        <div>
+                        <div class="footer__social_icon">
+                            <span>Follow us</span>
+                            <p></p>
                             <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
+                                <i class="fa-brands fa-facebook"></i>
                             </a>
                             <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
+                                <i class="fa-brands fa-twitter"></i>
                             </a>
                             <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
+                                <i class="fa-brands fa-square-instagram"></i>
                             </a>
                             <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </a>
                         </div>
                     </div>
     
                     <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
+                        <h3 class="footer__subtitle">Links</h3>
                         <ul>
                             <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
+                                <a href="#home" class="footer__link">Home</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
+                                <a href="#about" class="footer__link">About</a>
                             </li>
                             <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
+                                <a href="#discover" class="footer__link">Discover</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#place" class="footer__link">Places</a>
                             </li>
                         </ul>
                     </div>
     
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
-                            </li>
-                        </ul>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa-solid fa-user"></i>
+                            <div class="cta-text">
+                                <h4>Romário Delfino</h4>
+                                <span>Agente de viagens</span>
+                            </div>
+                        </div>
+
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find Us</h4>
+                                <span>Agente de viagens</span>
+                            </div>
+                        </div>
+
+                        <div class="single-cta">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="cta-text">
+                                <h4>Email</h4>
+                                <span>romasviagens@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="single-cta">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>(88) 9 9705-1274</h4>
+                            </div>
+                        </div>
                     </div>
-    
+                    
                     <div class="footer__data">
                         <h3 class="footer__subtitle">Support</h3>
                         <ul>
@@ -442,7 +450,7 @@
                 </div>
 
                 <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
+                    <p class="footer__copy">&#169; 2024 Romas Viagens. All rigths reserved.</p>
                     <div class="footer__terms">
                         <a href="#" class="footer__terms-link">Terms & Agreements</a>
                         <a href="#" class="footer__terms-link">Privacy Policy</a>
@@ -464,5 +472,7 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+        <script src="https://kit.fontawesome.com/33383661c8.js" crossorigin="anonymous"></script>
     </body>
 </html>
