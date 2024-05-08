@@ -176,9 +176,10 @@ input {
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
-  width: 55px;
+  width: 180px;
   height: 65px;
-  padding-top: 10px;
+  margin-bottom: 100px;
+  margin-top: 5px;
 }
 
 .nav__toggle {
@@ -355,6 +356,19 @@ input {
   transition: .3s;
 }
 
+.button_icon{
+  display: inline-block;
+  background-color: #2d7600;
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  font-weight: var(--font-semi-bold);
+}
+
+.button_icon:hover{
+  background-color: #3a9701;
+  transition: .2s;
+}
+
 .button:hover {
   background-color: var(--first-color-alt);
 }
@@ -419,6 +433,7 @@ input {
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
+  width: 200px;
   overflow: var(--img-hidden);
 }
 
@@ -445,10 +460,12 @@ input {
 
 .discover__img {
   transition: var(--img-transition);
+  border-radius: 8px;
 }
 
 .discover__img:hover {
   transform: var(--img-scale);
+  border-radius: 8px;
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,
