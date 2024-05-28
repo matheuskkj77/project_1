@@ -602,6 +602,7 @@ input {
 .place__rating-icon {
   font-size: .75rem;
   margin-right: var(--mb-0-25);
+  color: yellow;
 }
 
 .place__rating-number {
